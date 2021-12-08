@@ -35,4 +35,3 @@ function (user){
 * Contains a plausible collection of test cases
 * Outputs are accurately derived from inputs
 * Summary is plausible
-  * Official answer is that it determines if a user is active, and returns a different greeting string based on the answer.
