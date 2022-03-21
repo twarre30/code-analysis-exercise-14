@@ -37,3 +37,78 @@ Inputs and outputs should be valid JavaScript values!
 * Contains a plausible collection of test cases
 * Outputs are accurately derived from inputs
 * Summary is plausible
+
+
+## Inputs and Outputs
+
+| Input | Output|
+| :---: | :---: |
+| Tiffany | Welcome back, Tiffany! |
+| Jamey | Welcome back, Jamey |
+| Brad | Hey Brad! Would you like to renew your subscription? |
+
+
+## Tiffany
+
+
+```js
+ 
+function (user){					// Tiffany
+  if (user.isActive){					// true
+    return `Welcome back, ${user.username}!`		// Welcome back, Tiffany!
+  } else {
+    return `Hey ${user.username}! Would you like to renew your subscription?`  // does not run
+  }
+}
+
+```
+
+## Jamey
+
+
+```js
+
+function (user){                                        // Jamey
+  if (user.isActive){                                   // true
+    return `Welcome back, ${user.username}!`            // Welcome back, Jamey!
+  } else {
+    return `Hey ${user.username}! Would you like to renew your subscription?`  // does not run
+  }
+}
+
+```
+
+## Brad
+
+
+```js
+
+function (user){                                        // Brad
+  if (user.isActive){                                   // false
+    return `Welcome back, ${user.username}!`            // skips
+  } else {
+    return `Hey ${user.username}! Would you like to renew your subscription?`  // Hey Brad! Would you like to renew your subscription?
+  }
+}
+
+```
+
+## Summary
+
+This functions determires if a user is active and if so says Welcome and if not active asks if you want to renew.
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
