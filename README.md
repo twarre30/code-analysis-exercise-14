@@ -43,9 +43,9 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output|
 | :---: | :---: |
-| user.Tiffany = {isActive: true, username:"twarre30"} | Welcome back, Tiffany! |
-| user.Jamey = {isActive: true, username:"tuday"} | Welcome back, Jamey |
-| user.Brad = {isActive: false, username:"bslagle"} | Hey Brad! Would you like to renew your subscription? |
+| Tiffany = {isActive: true, username:"twarre30"} | `Welcome back, Tiffany!` |
+| Jamey = {isActive: true, username:"tuday"} | `Welcome back, Jamey!` |
+| Brad = {isActive: false, username:"bslagle"} | `Hey Brad! Would you like to renew your subscription?` |
 
 
 ## Tiffany
