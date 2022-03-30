@@ -21,9 +21,9 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | :---: | :---: |
-| {user: "Tiffany", isActive: true, username:"twarre30"} | `Welcome back, Tiffany!` |
-| {user: "Jamey", isActive: true, username:"tuday"} | `Welcome back, Jamey!` |
-| {user: "Brad", isActive: false, username:"bslagle"} | `Hey Brad! Would you like to renew your subscription?` | 
+| {isActive: true, username:"twarre30"} | `Welcome back, Tiffany!` |
+| {isActive: true, username:"tuday"} | `Welcome back, Jamey!` |
+| {isActive: false, username:"bslagle"} | `Hey Brad! Would you like to renew your subscription?` | 
 
 <table>
   <tr>
